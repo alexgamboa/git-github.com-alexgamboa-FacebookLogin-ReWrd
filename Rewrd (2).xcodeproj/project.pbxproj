@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C33E898907EF153A34E87A /* Pods_Rewrd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2530EBD972D5757D898FD9 /* Pods_Rewrd.framework */; };
+		AAAB36E52107951D007A8B70 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB36E42107951D007A8B70 /* Bolts.framework */; };
+		AAAB36E721079520007A8B70 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB36E621079520007A8B70 /* FBSDKCoreKit.framework */; };
+		AAAB36E921079522007A8B70 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB36E821079522007A8B70 /* FBSDKLoginKit.framework */; };
+		AAAB36EB21079549007A8B70 /* FacebookSDKStrings.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB36EA21079549007A8B70 /* FacebookSDKStrings.bundle */; };
+		AAAB60FA21093C02007A8B70 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB60F921093C02007A8B70 /* WelcomeViewController.swift */; };
+		AAAB60FC2109418A007A8B70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAAB60FB2109418A007A8B70 /* GoogleService-Info.plist */; };
+		AAAB6131210AA1DF007A8B70 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB6130210AA1DF007A8B70 /* AppManager.swift */; };
+		B02028C320EC718D004322D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028C220EC718D004322D1 /* AppDelegate.swift */; };
+		B02028C520EC718D004322D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028C420EC718D004322D1 /* ViewController.swift */; };
+		B02028CD20EC718E004322D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02028CC20EC718E004322D1 /* Assets.xcassets */; };
+		B02028DB20EC718E004322D1 /* RewrdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028DA20EC718E004322D1 /* RewrdTests.swift */; };
+		B02028E620EC718E004322D1 /* RewrdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028E520EC718E004322D1 /* RewrdUITests.swift */; };
+		B02028F420EC7362004322D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028F320EC7362004322D1 /* MapViewController.swift */; };
+		B02028F520EC7362004322D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028F320EC7362004322D1 /* MapViewController.swift */; };
+		B02028F620EC7362004322D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02028F320EC7362004322D1 /* MapViewController.swift */; };
+		B035936C20EF609E00F9D6F2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035936B20EF609E00F9D6F2 /* CameraController.swift */; };
+		B035936D20EF609E00F9D6F2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035936B20EF609E00F9D6F2 /* CameraController.swift */; };
+		B035936E20EF609E00F9D6F2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035936B20EF609E00F9D6F2 /* CameraController.swift */; };
+		B05C535D20F18C9300DC0E81 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B05C535C20F18C9300DC0E81 /* 1.png */; };
+		B05C535F20F18D3600DC0E81 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B05C535E20F18D3600DC0E81 /* 2.png */; };
+		B06F57F520EE738F003C1BB5 /* BottomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F57F420EE738F003C1BB5 /* BottomContainer.swift */; };
+		B06F57F620EE738F003C1BB5 /* BottomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F57F420EE738F003C1BB5 /* BottomContainer.swift */; };
+		B06F57F720EE738F003C1BB5 /* BottomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F57F420EE738F003C1BB5 /* BottomContainer.swift */; };
+		B06F57FB20EE78EE003C1BB5 /* GeoChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F57FA20EE78EE003C1BB5 /* GeoChallenges.swift */; };
+		B06F57FC20EE78EE003C1BB5 /* GeoChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F57FA20EE78EE003C1BB5 /* GeoChallenges.swift */; };
+		B06F57FD20EE78EE003C1BB5 /* GeoChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F57FA20EE78EE003C1BB5 /* GeoChallenges.swift */; };
+		B07DE9F520F5B8B3007F9080 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DE9F420F5B8B2007F9080 /* TableViewCell.swift */; };
+		B07DE9FB20F5BF1E007F9080 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DE9FA20F5BF1E007F9080 /* CollectionViewCell.swift */; };
+		B07DE9FD20F5BF6D007F9080 /* RewardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DE9FC20F5BF6D007F9080 /* RewardTableViewCell.swift */; };
+		B07DE9FF20F5D62B007F9080 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DE9FE20F5D62B007F9080 /* RewardsViewController.swift */; };
+		B0C4113420EED6EB00BD83A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C4113220EED6EB00BD83A9 /* Main.storyboard */; };
+		B0C4113520EED6EB00BD83A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C4113220EED6EB00BD83A9 /* Main.storyboard */; };
+		B0C4113620EED6EB00BD83A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C4113220EED6EB00BD83A9 /* Main.storyboard */; };
+		B0F7D97820EF6F5D0062E077 /* previewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7D97720EF6F5D0062E077 /* previewViewController.swift */; };
+		B0F7D97920EF6F5D0062E077 /* previewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7D97720EF6F5D0062E077 /* previewViewController.swift */; };
+		B0F7D97A20EF6F5D0062E077 /* previewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7D97720EF6F5D0062E077 /* previewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B02028D720EC718E004322D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02028B720EC718D004322D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02028BE20EC718D004322D1;
+			remoteInfo = Rewrd;
+		};
+		B02028E220EC718E004322D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02028B720EC718D004322D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02028BE20EC718D004322D1;
+			remoteInfo = Rewrd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3549FAA7ABE1E45A829F7460 /* Pods-Rewrd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewrd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rewrd/Pods-Rewrd.debug.xcconfig"; sourceTree = "<group>"; };
+		4A49B1825335C358217E8A1D /* Pods-Rewrd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewrd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rewrd/Pods-Rewrd.release.xcconfig"; sourceTree = "<group>"; };
+		AAAB36E42107951D007A8B70 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4-3/Bolts.framework"; sourceTree = "<group>"; };
+		AAAB36E621079520007A8B70 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4-3/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		AAAB36E821079522007A8B70 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4-3/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		AAAB36EA21079549007A8B70 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = Pods/FBSDKCoreKit/FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		AAAB60F5210936EF007A8B70 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAB60F921093C02007A8B70 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AAAB60FB2109418A007A8B70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AAAB60FD21094DF7007A8B70 /* Rewrd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rewrd.entitlements; sourceTree = "<group>"; };
+		AAAB6130210AA1DF007A8B70 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		B02028BF20EC718D004322D1 /* Rewrd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rewrd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02028C220EC718D004322D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B02028C420EC718D004322D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B02028CC20EC718E004322D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B02028D120EC718E004322D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02028D620EC718E004322D1 /* RewrdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewrdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02028DA20EC718E004322D1 /* RewrdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewrdTests.swift; sourceTree = "<group>"; };
+		B02028E120EC718E004322D1 /* RewrdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewrdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02028E520EC718E004322D1 /* RewrdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewrdUITests.swift; sourceTree = "<group>"; };
+		B02028E720EC718E004322D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02028F320EC7362004322D1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B035936B20EF609E00F9D6F2 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B05C535C20F18C9300DC0E81 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B05C535E20F18D3600DC0E81 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B06F57F420EE738F003C1BB5 /* BottomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainer.swift; sourceTree = "<group>"; };
+		B06F57FA20EE78EE003C1BB5 /* GeoChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoChallenges.swift; sourceTree = "<group>"; };
+		B07DE9F420F5B8B2007F9080 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = Rewrd/TableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		B07DE9FA20F5BF1E007F9080 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B07DE9FC20F5BF6D007F9080 /* RewardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTableViewCell.swift; sourceTree = "<group>"; };
+		B07DE9FE20F5D62B007F9080 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		B0C4113320EED6EB00BD83A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0F7D97720EF6F5D0062E077 /* previewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewViewController.swift; sourceTree = "<group>"; };
+		EB2530EBD972D5757D898FD9 /* Pods_Rewrd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rewrd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02028BC20EC718D004322D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAB36E52107951D007A8B70 /* Bolts.framework in Frameworks */,
+				AAAB36E721079520007A8B70 /* FBSDKCoreKit.framework in Frameworks */,
+				AAAB36E921079522007A8B70 /* FBSDKLoginKit.framework in Frameworks */,
+				AAAB36EB21079549007A8B70 /* FacebookSDKStrings.bundle in Frameworks */,
+				20C33E898907EF153A34E87A /* Pods_Rewrd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02028D320EC718E004322D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02028DE20EC718E004322D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F50FA77548AFDCE613847B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3549FAA7ABE1E45A829F7460 /* Pods-Rewrd.debug.xcconfig */,
+				4A49B1825335C358217E8A1D /* Pods-Rewrd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA275F692106C6CB0045C16C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB60F5210936EF007A8B70 /* FirebaseAuth.framework */,
+				AAAB36EA21079549007A8B70 /* FacebookSDKStrings.bundle */,
+				AAAB36E821079522007A8B70 /* FBSDKLoginKit.framework */,
+				AAAB36E621079520007A8B70 /* FBSDKCoreKit.framework */,
+				AAAB36E42107951D007A8B70 /* Bolts.framework */,
+				AAAB34D521078C3D007A8B70 /* Login */,
+				EB2530EBD972D5757D898FD9 /* Pods_Rewrd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAAB34D521078C3D007A8B70 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B02028B620EC718D004322D1 = {
+			isa = PBXGroup;
+			children = (
+				B0AE42D920F2035400BD73ED /* Images */,
+				B02028D920EC718E004322D1 /* RewrdTests */,
+				B02028E420EC718E004322D1 /* RewrdUITests */,
+				B02028C020EC718D004322D1 /* Products */,
+				B02028C120EC718D004322D1 /* Rewrd */,
+				AA275F692106C6CB0045C16C /* Frameworks */,
+				5F50FA77548AFDCE613847B3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B02028C020EC718D004322D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02028BF20EC718D004322D1 /* Rewrd.app */,
+				B02028D620EC718E004322D1 /* RewrdTests.xctest */,
+				B02028E120EC718E004322D1 /* RewrdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02028C120EC718D004322D1 /* Rewrd */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB60FD21094DF7007A8B70 /* Rewrd.entitlements */,
+				B02028C220EC718D004322D1 /* AppDelegate.swift */,
+				AAAB6130210AA1DF007A8B70 /* AppManager.swift */,
+				B06F57FA20EE78EE003C1BB5 /* GeoChallenges.swift */,
+				B07DE9F420F5B8B2007F9080 /* TableViewCell.swift */,
+				B02028C420EC718D004322D1 /* ViewController.swift */,
+				B035936B20EF609E00F9D6F2 /* CameraController.swift */,
+				B02028F320EC7362004322D1 /* MapViewController.swift */,
+				B0F7D97720EF6F5D0062E077 /* previewViewController.swift */,
+				B06F57F420EE738F003C1BB5 /* BottomContainer.swift */,
+				AAAB60F921093C02007A8B70 /* WelcomeViewController.swift */,
+				B07DE9F920F5BE13007F9080 /* Reward Section */,
+				B0C4113220EED6EB00BD83A9 /* Main.storyboard */,
+				B02028CC20EC718E004322D1 /* Assets.xcassets */,
+				AAAB60FB2109418A007A8B70 /* GoogleService-Info.plist */,
+				B02028D120EC718E004322D1 /* Info.plist */,
+			);
+			path = Rewrd;
+			sourceTree = "<group>";
+		};
+		B02028D920EC718E004322D1 /* RewrdTests */ = {
+			isa = PBXGroup;
+			children = (
+				B02028DA20EC718E004322D1 /* RewrdTests.swift */,
+			);
+			path = RewrdTests;
+			sourceTree = "<group>";
+		};
+		B02028E420EC718E004322D1 /* RewrdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B02028E520EC718E004322D1 /* RewrdUITests.swift */,
+				B02028E720EC718E004322D1 /* Info.plist */,
+			);
+			path = RewrdUITests;
+			sourceTree = "<group>";
+		};
+		B07DE9F920F5BE13007F9080 /* Reward Section */ = {
+			isa = PBXGroup;
+			children = (
+				B07DE9FE20F5D62B007F9080 /* RewardsViewController.swift */,
+				B07DE9FA20F5BF1E007F9080 /* CollectionViewCell.swift */,
+				B07DE9FC20F5BF6D007F9080 /* RewardTableViewCell.swift */,
+			);
+			path = "Reward Section";
+			sourceTree = "<group>";
+		};
+		B0AE42D920F2035400BD73ED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B05C535C20F18C9300DC0E81 /* 1.png */,
+				B05C535E20F18D3600DC0E81 /* 2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02028BE20EC718D004322D1 /* Rewrd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02028EA20EC718E004322D1 /* Build configuration list for PBXNativeTarget "Rewrd" */;
+			buildPhases = (
+				D9164E10657007658037B851 /* [CP] Check Pods Manifest.lock */,
+				B02028BB20EC718D004322D1 /* Sources */,
+				B02028BC20EC718D004322D1 /* Frameworks */,
+				B02028BD20EC718D004322D1 /* Resources */,
+				9D9B3DA0EAB0DD8CE3CE90E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rewrd;
+			productName = Rewrd;
+			productReference = B02028BF20EC718D004322D1 /* Rewrd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B02028D520EC718E004322D1 /* RewrdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02028ED20EC718E004322D1 /* Build configuration list for PBXNativeTarget "RewrdTests" */;
+			buildPhases = (
+				B02028D220EC718E004322D1 /* Sources */,
+				B02028D320EC718E004322D1 /* Frameworks */,
+				B02028D420EC718E004322D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02028D820EC718E004322D1 /* PBXTargetDependency */,
+			);
+			name = RewrdTests;
+			productName = RewrdTests;
+			productReference = B02028D620EC718E004322D1 /* RewrdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B02028E020EC718E004322D1 /* RewrdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02028F020EC718E004322D1 /* Build configuration list for PBXNativeTarget "RewrdUITests" */;
+			buildPhases = (
+				B02028DD20EC718E004322D1 /* Sources */,
+				B02028DE20EC718E004322D1 /* Frameworks */,
+				B02028DF20EC718E004322D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02028E320EC718E004322D1 /* PBXTargetDependency */,
+			);
+			name = RewrdUITests;
+			productName = RewrdUITests;
+			productReference = B02028E120EC718E004322D1 /* RewrdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02028B720EC718D004322D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Steven Loiczly";
+				TargetAttributes = {
+					B02028BE20EC718D004322D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					B02028D520EC718E004322D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B02028BE20EC718D004322D1;
+					};
+					B02028E020EC718E004322D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B02028BE20EC718D004322D1;
+					};
+				};
+			};
+			buildConfigurationList = B02028BA20EC718D004322D1 /* Build configuration list for PBXProject "Rewrd (2)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B02028B620EC718D004322D1;
+			productRefGroup = B02028C020EC718D004322D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02028BE20EC718D004322D1 /* Rewrd */,
+				B02028D520EC718E004322D1 /* RewrdTests */,
+				B02028E020EC718E004322D1 /* RewrdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02028BD20EC718D004322D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05C535D20F18C9300DC0E81 /* 1.png in Resources */,
+				B05C535F20F18D3600DC0E81 /* 2.png in Resources */,
+				AAAB60FC2109418A007A8B70 /* GoogleService-Info.plist in Resources */,
+				B02028CD20EC718E004322D1 /* Assets.xcassets in Resources */,
+				B0C4113420EED6EB00BD83A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02028D420EC718E004322D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C4113520EED6EB00BD83A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02028DF20EC718E004322D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C4113620EED6EB00BD83A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D9B3DA0EAB0DD8CE3CE90E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rewrd/Pods-Rewrd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rewrd/Pods-Rewrd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9164E10657007658037B851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rewrd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02028BB20EC718D004322D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07DE9FB20F5BF1E007F9080 /* CollectionViewCell.swift in Sources */,
+				B07DE9FD20F5BF6D007F9080 /* RewardTableViewCell.swift in Sources */,
+				B02028C520EC718D004322D1 /* ViewController.swift in Sources */,
+				B06F57FB20EE78EE003C1BB5 /* GeoChallenges.swift in Sources */,
+				B06F57F520EE738F003C1BB5 /* BottomContainer.swift in Sources */,
+				B0F7D97820EF6F5D0062E077 /* previewViewController.swift in Sources */,
+				AAAB6131210AA1DF007A8B70 /* AppManager.swift in Sources */,
+				B07DE9F520F5B8B3007F9080 /* TableViewCell.swift in Sources */,
+				B02028C320EC718D004322D1 /* AppDelegate.swift in Sources */,
+				B07DE9FF20F5D62B007F9080 /* RewardsViewController.swift in Sources */,
+				AAAB60FA21093C02007A8B70 /* WelcomeViewController.swift in Sources */,
+				B035936C20EF609E00F9D6F2 /* CameraController.swift in Sources */,
+				B02028F420EC7362004322D1 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02028D220EC718E004322D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F7D97920EF6F5D0062E077 /* previewViewController.swift in Sources */,
+				B035936D20EF609E00F9D6F2 /* CameraController.swift in Sources */,
+				B06F57F620EE738F003C1BB5 /* BottomContainer.swift in Sources */,
+				B02028DB20EC718E004322D1 /* RewrdTests.swift in Sources */,
+				B02028F520EC7362004322D1 /* MapViewController.swift in Sources */,
+				B06F57FC20EE78EE003C1BB5 /* GeoChallenges.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02028DD20EC718E004322D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F7D97A20EF6F5D0062E077 /* previewViewController.swift in Sources */,
+				B035936E20EF609E00F9D6F2 /* CameraController.swift in Sources */,
+				B06F57F720EE738F003C1BB5 /* BottomContainer.swift in Sources */,
+				B02028E620EC718E004322D1 /* RewrdUITests.swift in Sources */,
+				B02028F620EC7362004322D1 /* MapViewController.swift in Sources */,
+				B06F57FD20EE78EE003C1BB5 /* GeoChallenges.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B02028D820EC718E004322D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02028BE20EC718D004322D1 /* Rewrd */;
+			targetProxy = B02028D720EC718E004322D1 /* PBXContainerItemProxy */;
+		};
+		B02028E320EC718E004322D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02028BE20EC718D004322D1 /* Rewrd */;
+			targetProxy = B02028E220EC718E004322D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0C4113220EED6EB00BD83A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C4113320EED6EB00BD83A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B02028E820EC718E004322D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B02028E920EC718E004322D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B02028EB20EC718E004322D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3549FAA7ABE1E45A829F7460 /* Pods-Rewrd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rewrd/Rewrd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ACE8A7UM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Rewrd",
+					"$(PROJECT_DIR)/Rewrd/Frameworks",
+					"$(PROJECT_DIR)/Rewrd/Frameworks/Pods_FirebaseDemo.framework/Headers",
+					"$(PROJECT_DIR)/LOGIN",
+					"$(PROJECT_DIR)/LOGIN/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4-3",
+				);
+				INFOPLIST_FILE = Rewrd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ReWrd.Alex.ReWrd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B02028EC20EC718E004322D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A49B1825335C358217E8A1D /* Pods-Rewrd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rewrd/Rewrd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ACE8A7UM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Rewrd",
+					"$(PROJECT_DIR)/Rewrd/Frameworks",
+					"$(PROJECT_DIR)/Rewrd/Frameworks/Pods_FirebaseDemo.framework/Headers",
+					"$(PROJECT_DIR)/LOGIN",
+					"$(PROJECT_DIR)/LOGIN/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4-3",
+				);
+				INFOPLIST_FILE = Rewrd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ReWrd.Alex.ReWrd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B02028EE20EC718E004322D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ACE8A7UM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rewrd",
+					"$(PROJECT_DIR)/Rewrd/Frameworks",
+					"$(PROJECT_DIR)/Rewrd/Frameworks/Pods_FirebaseDemo.framework/Headers",
+					"$(PROJECT_DIR)/LOGIN",
+					"$(PROJECT_DIR)/LOGIN/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAnalytics/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = RewrdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.RewrdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rewrd.app/Rewrd";
+			};
+			name = Debug;
+		};
+		B02028EF20EC718E004322D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ACE8A7UM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rewrd",
+					"$(PROJECT_DIR)/Rewrd/Frameworks",
+					"$(PROJECT_DIR)/Rewrd/Frameworks/Pods_FirebaseDemo.framework/Headers",
+					"$(PROJECT_DIR)/LOGIN",
+					"$(PROJECT_DIR)/LOGIN/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAnalytics/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = RewrdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.RewrdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rewrd.app/Rewrd";
+			};
+			name = Release;
+		};
+		B02028F120EC718E004322D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ACE8A7UM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rewrd",
+					"$(PROJECT_DIR)/Rewrd/Frameworks",
+					"$(PROJECT_DIR)/Rewrd/Frameworks/Pods_FirebaseDemo.framework/Headers",
+					"$(PROJECT_DIR)/LOGIN",
+					"$(PROJECT_DIR)/LOGIN/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAnalytics/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = RewrdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.RewrdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rewrd;
+			};
+			name = Debug;
+		};
+		B02028F220EC718E004322D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ACE8A7UM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rewrd",
+					"$(PROJECT_DIR)/Rewrd/Frameworks",
+					"$(PROJECT_DIR)/Rewrd/Frameworks/Pods_FirebaseDemo.framework/Headers",
+					"$(PROJECT_DIR)/LOGIN",
+					"$(PROJECT_DIR)/LOGIN/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/LOGIN/Target\\ Support\\ Files/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseCore/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAuth/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Facebook\\ Login/Pods/FirebaseAnalytics/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = RewrdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.RewrdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rewrd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02028BA20EC718D004322D1 /* Build configuration list for PBXProject "Rewrd (2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02028E820EC718E004322D1 /* Debug */,
+				B02028E920EC718E004322D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02028EA20EC718E004322D1 /* Build configuration list for PBXNativeTarget "Rewrd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02028EB20EC718E004322D1 /* Debug */,
+				B02028EC20EC718E004322D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02028ED20EC718E004322D1 /* Build configuration list for PBXNativeTarget "RewrdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02028EE20EC718E004322D1 /* Debug */,
+				B02028EF20EC718E004322D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02028F020EC718E004322D1 /* Build configuration list for PBXNativeTarget "RewrdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02028F120EC718E004322D1 /* Debug */,
+				B02028F220EC718E004322D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B02028B720EC718D004322D1 /* Project object */;
+}

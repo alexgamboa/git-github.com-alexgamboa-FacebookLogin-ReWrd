@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:AppDelegate.swift">
+   </FileRef>
+   <Group
+      location = "group:FirebaseDemo"
+      name = "FirebaseDemo">
+      <FileRef
+         location = "group:Rubik-MediumItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-Bold.ttf">
+      </FileRef>
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:nametag.imageset"
+            name = "nametag.imageset">
+            <FileRef
+               location = "group:nametag.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:nametag@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:nametag@3x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:_fjegpi89au-thomas-shellberg.imageset"
+            name = "_fjegpi89au-thomas-shellberg.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:_fjegpi89au-thomas-shellberg.jpg">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:twitter-large.imageset"
+            name = "twitter-large.imageset">
+            <FileRef
+               location = "group:twitter-large@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:twitter-large@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:twitter-large.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cross.imageset"
+            name = "cross.imageset">
+            <FileRef
+               location = "group:cross.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:cross@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:cross@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:lock.imageset"
+            name = "lock.imageset">
+            <FileRef
+               location = "group:lock@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:lock@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:lock.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:heart.imageset"
+            name = "heart.imageset">
+            <FileRef
+               location = "group:heart.png">
+            </FileRef>
+            <FileRef
+               location = "group:heart@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:heart@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Northern Lights"
+            name = "Northern Lights">
+            <Group
+               location = "group:t4waa0t3tvs-james-lafa.imageset"
+               name = "t4waa0t3tvs-james-lafa.imageset">
+               <FileRef
+                  location = "group:t4waa0t3tvs-james-lafa.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:62v7ntlkgl8-vincent-guth.imageset"
+               name = "62v7ntlkgl8-vincent-guth.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:62v7ntlkgl8-vincent-guth.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:uql9c2qigla-drew-collins.imageset"
+               name = "uql9c2qigla-drew-collins.imageset">
+               <FileRef
+                  location = "group:uql9c2qigla-drew-collins.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:nkeh30uoe8o-joshua-earle.imageset"
+               name = "nkeh30uoe8o-joshua-earle.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:nkeh30uoe8o-joshua-earle.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:maxheaaauki-vincent-guth.imageset"
+               name = "maxheaaauki-vincent-guth.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:maxheaaauki-vincent-guth.jpg">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:5s9sei-hfza-vincent-guth.imageset"
+               name = "5s9sei-hfza-vincent-guth.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:5s9sei-hfza-vincent-guth.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bclr95glx6k-vashishtha-jogi.imageset"
+               name = "bclr95glx6k-vashishtha-jogi.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:bclr95glx6k-vashishtha-jogi.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:zsmgnjyrhrm-nelly-volkovich.imageset"
+               name = "zsmgnjyrhrm-nelly-volkovich.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:zsmgnjyrhrm-nelly-volkovich.jpg">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Download.imageset"
+            name = "Download.imageset">
+            <FileRef
+               location = "group:Download@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Download@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Profile Photos"
+            name = "Profile Photos">
+            <Group
+               location = "group:james-lafa.imageset"
+               name = "james-lafa.imageset">
+               <FileRef
+                  location = "group:james-lafa.jpeg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:josuha.imageset"
+               name = "josuha.imageset">
+               <FileRef
+                  location = "group:josuha.jpeg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:vincent-guth.imageset"
+               name = "vincent-guth.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:vincent-guth.jpeg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:profile-1.imageset"
+               name = "profile-1.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:profile-1.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Thomas-Shellberg.imageset"
+               name = "Thomas-Shellberg.imageset">
+               <FileRef
+                  location = "group:Thomas-Shellberg.jpeg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Vashishtha-Jogi.imageset"
+               name = "Vashishtha-Jogi.imageset">
+               <FileRef
+                  location = "group:Vashishtha-Jogi.jpeg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:user1.imageset"
+               name = "user1.imageset">
+               <FileRef
+                  location = "group:user1.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:user1@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:user1@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:head.imageset"
+               name = "head.imageset">
+               <FileRef
+                  location = "group:head@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:head@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:head.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:cloud download.imageset"
+            name = "cloud download.imageset">
+            <FileRef
+               location = "group:cloud download.png">
+            </FileRef>
+            <FileRef
+               location = "group:cloud download@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:cloud download@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:Download@1x.imageset"
+            name = "Download@1x.imageset">
+            <FileRef
+               location = "group:Download@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Rubik-Light.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:WelcomeViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:GoogleService-Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-Medium.ttf">
+      </FileRef>
+      <Group
+         location = "group:Base.lproj"
+         name = "Base.lproj">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Rubik-Black.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-Italic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:UINavigationController+Transparent.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-LightItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-BlackItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-Regular.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:Rubik-BoldItalic.ttf">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:GoogleService-Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-Black.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-BlackItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-Bold.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-BoldItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-Italic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-Light.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-LightItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-Medium.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-MediumItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:Rubik-Regular.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:UINavigationController+Transparent.swift">
+   </FileRef>
+   <FileRef
+      location = "group:WelcomeViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:Rewrd.xcodeproj">
+   </FileRef>
+</Workspace>
